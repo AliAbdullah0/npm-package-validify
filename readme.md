@@ -6,9 +6,9 @@ A lightweight JavaScript validation library for usernames, passwords, emails, an
 
 Install the package using npm or yarn:
 
-<code>npm install validify-js</code>
+<code>npm install @zedento/validify</code>
 
-<code>import Validify from "validify-js";</code>
+<code>import Validify from "@zedento/validify";</code>
 
 <h2>Username Validation | validateUsername(username, special, min, max, allowedSymbols)</h2>
 <p>Validify allows you to validate usernames based on length and special character restrictions.</p>
