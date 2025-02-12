@@ -1,0 +1,21 @@
+{
+  "name": "validify",
+  "version": "1.0.0",
+  "main": "index.mjs",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AliAbdullah0/npm-package-validify.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AliAbdullah0/npm-package-validify/issues"
+  },
+  "homepage": "https://github.com/AliAbdullah0/npm-package-validify#readme"
+}
