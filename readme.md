@@ -38,5 +38,4 @@ Install the package using npm or yarn:
     vld.validateNumber(12345, 4, 10);
 </div>
 <br>
-<h1>Arguments</h1>
 
