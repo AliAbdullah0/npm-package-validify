@@ -1,5 +1,5 @@
 class Validify {
-    validateUsername(username = '', special = false, min = 2, max = 20, allowedSymbols = []) {
+    validateText(username = '', special = false, min = 2, max = 20, allowedSymbols = []) {
         const defaultSymbols = ['!', '@', '#', "$", '%', '^', '&', '*', '(', ')', '-', '=', '+', ',', '/', '?', ']', '[', '`', '~', ';', ':'];
         const symbols = allowedSymbols.length > 0 ? allowedSymbols : defaultSymbols;
 

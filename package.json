@@ -1,5 +1,5 @@
 {
-  "name": "@zedento/validify",
+  "name": "input-validify",
   "version": "1.1.0",
   "main": "index.mjs",
   "type": "module",
