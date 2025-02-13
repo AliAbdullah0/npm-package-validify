@@ -1,14 +1,14 @@
 class Validify {
-    validateText(username = '', special = false, min = 2, max = 20, allowedSymbols = []) {
+    validateText(text = '', special = false, min = 2, max = 20, allowedSymbols = []) {
         const defaultSymbols = ['!', '@', '#', "$", '%', '^', '&', '*', '(', ')', '-', '=', '+', ',', '/', '?', ']', '[', '`', '~', ';', ':'];
         const symbols = allowedSymbols.length > 0 ? allowedSymbols : defaultSymbols;
 
-        if (!username) throw new Error('Username is empty or undefined!');
-        if (username.length > max) throw new Error(`Max characters allowed: ${max}`);
-        if (username.length < min) throw new Error(`Minimum characters required: ${min}`);
+        if (!text) throw new Error('text is empty or undefined!');
+        if (text.length > max) throw new Error(`Max characters allowed: ${max}`);
+        if (text.length < min) throw new Error(`Minimum characters required: ${min}`);
 
         if (!special) {
-            for (const char of username) {
+            for (const char of text) {
                 if (symbols.includes(char)) throw new Error("Cannot contain special characters!");
             }
         }
