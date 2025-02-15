@@ -13,7 +13,7 @@ Install the package using npm :
 <h2>Username Validation | validateText(text, special, min, max, allowedSymbols)</h2>
 <p>Validify allows you to validate usernames based on length and special character restrictions.</p>
 <div style='background:rgb(15,20,30);padding:20px;border-radius:10px;color:white;'>
-    vld.validateText("User123");
+    vld.validateText("User123",true,2,10,['_','-','@']);
 </div>
 <h2>Password Validation | validatePassword(password, min, max, complexity)</h2>
 <p>Validate passwords with specific length requirements and complexity rules.</p>
