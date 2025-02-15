@@ -8,7 +8,7 @@ Install the package using npm :
 
 <code>npm install input-validify</code>
 
-<code>import Validify from "input-validify";</code>
+<code>import Validify from "input-validify";</code><br>
 <code>const vld = new Validify()</code>
 <h2>Username Validation | validateText(text, special, min, max, allowedSymbols)</h2>
 <p>Validify allows you to validate usernames based on length and special character restrictions.</p>
