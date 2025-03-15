@@ -19,7 +19,7 @@
     "passwords"
   ],
   "author": "zedento",
-  "license": "ISC",
+  "license": "MIT",
   "description": "A lightweight javascript package to validate forms.",
   "repository": {
     "type": "git",
