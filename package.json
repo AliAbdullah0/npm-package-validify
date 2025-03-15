@@ -1,13 +1,23 @@
 {
   "name": "input-validify",
-  "version": "1.6.0",
+  "version": "2.0.0",
   "main": "index.mjs",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "types": "index.d.ts",
-  "keywords": ["input","form","validation","frontend","backend","zod","lightweight","usernames","passwords"],
+  "keywords": [
+    "input",
+    "form",
+    "validation",
+    "frontend",
+    "backend",
+    "zod",
+    "lightweight",
+    "usernames",
+    "passwords"
+  ],
   "author": "zedento",
   "license": "ISC",
   "description": "A lightweight javascript package to validate forms.",
