@@ -2,11 +2,8 @@
   "name": "input-validify",
   "version": "3.1.1",
   "description": "A lightweight javascript package to validate forms.",
-  "main": "./dist/cjs/validify.js",
-  "module": "./dist/esm/validify.js",
-  "types": "./dist/esm/validify.d.ts",
+  "main": "./src/validify.mjs",
   "exports": {
-    "require": "./dist/cjs/validify.js",
     "import": "./dist/esm/validify.js"
   },
   "type": "module",
