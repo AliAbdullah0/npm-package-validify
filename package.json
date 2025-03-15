@@ -1,12 +1,19 @@
 {
   "name": "input-validify",
   "version": "3.1.0",
-  "main": "index.mjs",
+  "description": "A lightweight javascript package to validate forms.",
+  "main": "./dist/cjs/validify.js",
+  "module": "./dist/esm/validify.js",
+  "types": "./dist/esm/validify.d.ts",
+  "exports": {
+    "require": "./dist/cjs/validify.js",
+    "import": "./dist/esm/validify.js"
+  },
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build:esm": "tsc",
+    "build": "npm run build:esm"
   },
-  "types": "index.d.ts",
   "keywords": [
     "input",
     "form",
@@ -19,14 +26,5 @@
     "passwords"
   ],
   "author": "zedento",
-  "license": "MIT",
-  "description": "A lightweight javascript package to validate forms.",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/AliAbdullah0/npm-package-validify.git"
-  },
-  "bugs": {
-    "url": "https://github.com/AliAbdullah0/npm-package-validify/issues"
-  },
-  "homepage": "https://github.com/AliAbdullah0/npm-package-validify#readme"
+  "license": "MIT"
 }
