@@ -1,3 +1,4 @@
+/// <reference path="./index.d.ts" />
 class Validify {
     validateText(text = '', special = false, min = 2, max = 20, allowedSymbols = []) {
         const defaultSymbols = ['!', '@', '#', "$", '%', '^', '&', '*', '(', ')', '-', '=', '+', ',', '/', '?', ']', '[', '`', '~', ';', ':'];
